@@ -9,3 +9,4 @@ numbers.push(16);
 console.log(numbers);
 //This slice method will cut out a part of the array and display only that part, this method must be used in the `console.log` command as it does not alter the actual array like the other methods shown here do
 console.log(isHungry.slice(1,4));
+//In the method above we used the indx postions 1 and 4 to indicate where we should slice the array. The index ostion tells us the location of the element in the array. They are numbered in asceding order starting at 0. For example, given the array `var nameOfArray = ["Thing1", "Thing2", "Thing3", ...]` Thing1 is in index position 0, Thing2 is in index postion 1, Thing3 is in index postion 2, and so on. 
